@@ -1,0 +1,4 @@
+James, 9, 11, 1995, Brynmill, Wales , English, Dogs; Cats; Beans
+Dylan, 12, 02, 1997, Brynmill, Wales , Welsh, Football; Sundays; Drinking 
+Kieron, 14, 7, 1996, Brynmill, Wales , English, Dancing; Holidays; Toast
+Harriet, 20, 7, 1996, Brynmill, English, English, Swimming; Girls; Peanut Butter

@@ -1,0 +1,12 @@
+
+James Smith 863266
+
+How do your passwords stay safe and how can they be more secure?
+
+https://youtu.be/FLrKnqGilwc
+
+Sources:
+http://arstechnica.com/security/2012/12/25-gpu-cluster-cracks-every-standard-windows-password-in-6-hours/
+http://www.dailymail.co.uk/sciencetech/article-2919762/Hacking-Wi-Fi-s-child-s-play-Seven-year-old-shows-easy-break-public-network-11-minutes.html
+http://wma.spearswms.com/2015/12/31/why-identity-theft-is-now-a-booming-digital-industry/
+https://www.aicpa.org/InterestAreas/ForensicAndValuation/Resources/ElectronicDataAnalysis/DownloadableDocuments/Top-5-CyberCrimes.pdf

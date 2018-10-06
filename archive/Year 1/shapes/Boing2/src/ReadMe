@@ -1,0 +1,7 @@
+ReadMe
+
+Created an arc by writing a new arc class.
+
+used two new variables startAngle and arcAngle.
+
+format is arc <px> <py> <vx> <vy> <filled?> <width> <height> <arcAngle> <startAngle> <r> <g> <b> <insertion time>

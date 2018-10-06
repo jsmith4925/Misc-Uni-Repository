@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+class ChangeArrayList {
+	public static void main(String[] args) {
+		//Create an ArrayList quickly from an array
+		ArrayList<Integer> list =
+			new ArrayList<>(Arrays.asList(1, 2, 3));
+		
+		//Call method to add 1 to all items in the list
+		addOne(list);
+		
+		//Print out the list
+		for(int val : list) {
+			System.out.println(val);
+		}	
+	}
+	
+	//Method to add 1 to elements of an ArrayList
+	static void addOne(ArrayList<Integer> valList) {
+		for(int i = 0; i < valList.size(); i++) {
+			valList.set(i, valList.get(i) + 1);
+		}
+	}
+}
