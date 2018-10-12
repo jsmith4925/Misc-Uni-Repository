@@ -49,3 +49,4 @@ print(result[:, 0])
 
 data = np.load("Iris_data.npy")
 #HELP
+print(data)
