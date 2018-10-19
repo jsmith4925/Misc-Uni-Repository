@@ -1,0 +1,59 @@
+repo: 'dinosaur-designs'
+canvasCourse: 'web-dev-1'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - nav-hover
+  - screenshots-320
+  - google-fonts
+
+html:
+  - path: 'index.html'
+    has:
+      - ['link[href*="Patua+One"]', 'The Google Font, `Patua One` is missing']
+      - 'header'
+      - 'header h1'
+      - 'header h1 img'
+      - 'header nav'
+      - 'header nav ol'
+      - 'header nav ol li'
+      - 'header nav ol li a'
+      - 'main'
+      - 'main h2'
+      - 'main figure'
+      - 'main figcaption'
+      - check: 'a[href="#hadrosaur"]'
+        message: 'The Hadrosaur navigation link doesn’t point to the Hadrosaur information'
+      - check: 'a[href="#iguanodon"]'
+        message: 'The Iguanodon navigation link doesn’t point to the Iguanodon information'
+      - check: 'a[href="#stegosaurus"]'
+        message: 'The Stegosaurus navigation link doesn’t point to the Stegosaurus information'
+      - check: 'img[src="images/dinos-r-us.svg"]'
+        message: 'The logo image doesn’t point to the correct location'
+      - check: 'img[src="images/hadrosaur.jpg"]'
+        message: 'The Hadrosaur image doesn’t point to the correct location'
+      - check: 'img[src="images/iguanodon.jpg"]'
+        message: 'The Iguanodon image doesn’t point to the correct location'
+      - check: 'img[src="images/stegosaurus.jpg"]'
+        message: 'The Stegosaurus image doesn’t point to the correct location'
+    search:
+      - 'Dinos ’R’ Us'
+      - 'Hadrosaur'
+      - 'Iguanodon'
+      - 'Stegosaurus'
+      - 'Hadrosaurids are descendants of the Upper Jurassic/Lower Cretaceous'
+      - 'Iguanodon is a genus of ornithopod dinosaur that existed roughly halfway'
+      - 'Due to their distinctive combination of broad'
+    searchNot:
+      - check: 'HADROSAUR'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
+      - check: 'IGUANODON'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
+      - check: 'STEGOSAURUS'
+        message: 'Capital letters shouldn’t be used in the HTML (except for acronyms); use CSS to make letters visually uppercase'
+
+css:
+  - path: 'css/main.css'

@@ -1,0 +1,52 @@
+html{
+    background: #f2f1ed;  
+    font-family: 'Patua One', cursive;
+    line-height: 1.5;
+}
+
+body{
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #5d8432;
+    text-transform: uppercase;   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #5d8432;
+    padding: 8px 16px;
+    text-decoration: none;    
+    border-left: 2px solid #5d8432;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: #b42885;
+}
+
+#tag {
+    font-size: 120%;
+}
