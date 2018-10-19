@@ -51,7 +51,7 @@ result = arrayOne.dot(arrayTwo)
 print(result[:, 0])
 
 # Task 1.4
-data = np.load("lab1\\Iris_data.npy")
+data = np.load("Iris_data.npy")
 
 plt.scatter(data[:, 0], data[:, 1])
 plt.xlabel('x')
