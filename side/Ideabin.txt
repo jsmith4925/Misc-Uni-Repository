@@ -1,0 +1,76 @@
+================================================================================================
+01010000 01101111 01101001 01101110 01110100 01101100 01100101 01110011 01110011 
+    ____        _       __  __                  ____               _           __      
+   / __ \____  (_)___  / /_/ /__  __________   / __ \_________    (_)__  _____/ /______
+  / /_/ / __ \/ / __ \/ __/ / _ \/ ___/ ___/  / /_/ / ___/ __ \  / / _ \/ ___/ __/ ___/
+ / ____/ /_/ / / / / / /_/ /  __(__  |__  )  / ____/ /  / /_/ / / /  __/ /__/ /_(__  ) 
+/_/    \____/_/_/ /_/\__/_/\___/____/____/  /_/   /_/   \____/_/ /\___/\___/\__/____/  
+															/___/
+
+01010000 01010010 01001111 01001010 01000101 01000011 01010100 01010011
+================================================================================================
+
+
+1.	Game of life style thing: (self running game with outcomes changed by initial variables)
+  //(Amy has progammed this, it can't be that hard)
+2.	Random word generator - learning librarys and databasing (store use count)
+
+3.	ASCII text generator - you cool kid
+
+4.	RPS game
+
+5.	Turtle Race
+
+6.	Secret Messages - encryptor [x]
+
+7.	Arty pictures - random colour shapes
+
+8.  RPG maze??
+
+9.  Where is the ISS?
+
+10. Basic calc - leading into Sudoku game - into sudoku solver
+
+11. LAN CHAT
+
+12. Root me challanges
+
+13. learn blockchain (bc its all about that sweet sweet dolla)
+
+14. Dice roller [x]
+
+15. Higher or lower guess the number game (you guess computer's number)
+
+16. Magic 8 Ball
+
+17. Higher or lower guess the number game (computer guesses your number)
+
+18. Tic Tac Toe game
+
+19. All of the above, except with windows forms instead of the cli ?? so like make a GUI
+
+20. Simple CSV database
+
+21. Car game
+
+22. Basic website 		[x]
+	-	login system		[x]
+	-	comment system		[]
+	-	user profile page	[]
+
+23. Random Simpson ep generator
+	-	with history of watched episodes
+
+==============================================================================
+COMPLETE
+------------------------------------------------------------------------------
+1. Weather Web Scrape - (extn: multiple locations at once)
+
+LYNX
+https://codeclubprojects.org/en-GB/python/
+https://www.root-me.org/?page=faq&lang=en
+http://krondo.com/an-introduction-to-asynchronous-programming-and-twisted/
+https://twistedmatrix.com/trac/
+https://elitedatascience.com/python-cheat-sheet
+http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+https://elitedatascience.com/machine-learning-projects-for-beginners
