@@ -18,13 +18,12 @@ enum Results{
 
 int wins, losses, draws = 0;
 
-int getComputerChoice(){
+int getComputerChoice() {
     /* random int between 0 and 2 */
     srand(time(NULL));
     int computerChoice = rand() % 3;
     
-    switch (computerChoice){
-
+    switch (computerChoice) {
         case 0:
             std::cout << "Computer plays: Rock" << std::endl;
             break;
@@ -38,7 +37,7 @@ int getComputerChoice(){
     return computerChoice;
 }
 
-int getPlayerChoice(){
+int getPlayerChoice() {
 
     char userInput;
     Moves userMove;
@@ -47,8 +46,7 @@ int getPlayerChoice(){
     std::cin >> userInput;
     userInput = toupper(userInput);
 
-    switch (userInput){
-
+    switch (userInput) {
     case 'R':
         userMove = Rock;
         break;
@@ -66,10 +64,9 @@ int getPlayerChoice(){
     return userMove;
 }
 
-int updateResults(int result){
+int updateResults(int result) {
     
-    switch (result)
-    {
+    switch (result) {
         case 0:
             std::cout << "You win!" << std::endl;
             wins++;
@@ -92,10 +89,15 @@ int playRound(){
     int p = getPlayerChoice();
     int c = getComputerChoice();
 
-    if (p == c) updateResults(Results::Draw);
-    else if ((p - c) % 3 == 1) updateResults(Win);
-    else updateResults(Loss);
-
+    if (p == c) {
+        updateResults(Results::Draw);
+    }
+    else if ((p - c) % 3 == 1) {
+        updateResults(Win);
+    }
+    else {
+        updateResults(Loss);
+    }
 }
 
 int gameLoop() {
@@ -110,6 +112,7 @@ int gameLoop() {
         std::cout << "Play again? (Y/N): ";
         std::cin >> playAgainChoice;
         playAgainChoice = toupper(playAgainChoice);
+
         if (playAgainChoice == 'N') {
             game = false;
         }
@@ -118,8 +121,7 @@ int gameLoop() {
 
 }
 
-int main()
-{
+int main() {
     gameLoop();
     return 0;
 }
