@@ -56,7 +56,7 @@ public class DES {
 	public SecretKey generateRandomKey() throws NoSuchAlgorithmException{
 		//Use java's key generator to produce a random key.
 		KeyGenerator keyGenerator = KeyGenerator.getInstance("a");
-		keyGenerator.init(128);
+		keyGenerator.init(56);
 		SecretKey secretKey = keyGenerator.generateKey();
 		
 		//print the key
